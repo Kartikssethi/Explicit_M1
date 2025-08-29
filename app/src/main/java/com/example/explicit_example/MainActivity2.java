@@ -33,6 +33,8 @@ public class MainActivity2 extends AppCompatActivity {
         String N2=getIntent().getStringExtra("Num2");
         Double Number1=Double.parseDouble(N1);
         Double Number2=Double.parseDouble(N2);
+//        Double N1=Double.parseDouble(getIntent().getStringExtra("Num1"));
+//        Double N2=Double.parseDouble(getIntent().getStringExtra("Num2"));
         Double sum = Number1+Number2;
         Added_sum.setText(String.valueOf(sum));
         Send_Result.setOnClickListener(new View.OnClickListener() {
